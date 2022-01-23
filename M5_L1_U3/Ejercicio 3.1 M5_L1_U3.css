@@ -12,3 +12,9 @@ p.primerparrafo {
     font-style: italic;
     border: 1px dotted rgb(255,145,255);
 }
+
+#tercerparrafo {
+    background-color: rgb(49,129,102);
+    margin-top: 40px;
+    font-size: 10px;
+}
