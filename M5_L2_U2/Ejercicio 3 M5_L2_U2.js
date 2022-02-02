@@ -23,7 +23,7 @@ const objComparación= `El número 2 no es mayor que el 5: ${data[1]} es menor q
 console.log(objComparación);
 
 // Por tanto, de esto deducimos que 5 el el numero mayor
-// Comprobamos el resto de iperaciones numéricas
+// Comprobamos el resto de operaciones numéricas
 
 const compararMenor = data [1] < data [2];
 console.log(compararMenor);
