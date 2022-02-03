@@ -52,3 +52,15 @@ var diasSemana = ["lunes", "martes","miercoles", "jueves","viernes", "sabado", "
      console.log(diasSemana[recorroDiasSemana]);
      recorroDiasSemana++;
  }
+
+ // Podemos evaluar una condicion (SI se cumple o NO) con la estructura DO...WHILE   
+ var diasSemana = ["lunes", "martes","miercoles", "jueves","viernes", "sabado", "domingo"];
+ var recorroDiasSemana=0;
+ do {
+    console.log(diasSemana[recorroDiasSemana]);
+    recorroDiasSemana++;
+ }
+ while (recorroDiasSemana <7)
+    
+//   
+ 
