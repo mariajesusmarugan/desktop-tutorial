@@ -1,4 +1,4 @@
-//Prueba bucle for condición simple
+//Prueba bucle condición simple FOR
 
 for (let i= 0; i<10; i++){
     console.log("dentro del bucle");
@@ -6,7 +6,7 @@ for (let i= 0; i<10; i++){
 
 }
 
-//Prueba bucle for para pintarala en consola, mejor coigo que console.log(i); anterior
+//Prueba bucle for para pintarala en consola, mejor codigo que console.log(i); anterior
 
 for (let i= 0; i<3; i++){
     console.log(`Esta es la iteración ${i}`);
@@ -42,4 +42,13 @@ var diasSemana = ["lunes", "martes","miercoles", "jueves","viernes", "sabado", "
     for (var posicion in diasSemana){
     console.log(posicion);
             
+ }
+
+ // Podemos evaluar una condicion (SI se cumple o NO) con la estructura WHILE   
+ var diasSemana = ["lunes", "martes","miercoles", "jueves","viernes", "sabado", "domingo"];
+ var recorroDiasSemana=0;
+ console.log("los dias de la semana son: ")
+ while (recorroDiasSemana <7){
+     console.log(diasSemana[recorroDiasSemana]);
+     recorroDiasSemana++;
  }
